@@ -13,6 +13,8 @@ hive.metastore.event.listeners=org.example.DropTableListener
 
 Restart services
 ```
+If you are facing issues in deploying JAR on HDP platform please have a look at following question from cloudera community:
+https://community.cloudera.com/t5/Support-Questions/HiveMetaStore-logs-not-showing-logs-from-custom-event/td-p/298988
 
 ##### How to Test
 ```kubernetes helm
